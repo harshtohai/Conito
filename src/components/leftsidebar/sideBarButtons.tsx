@@ -2,10 +2,14 @@
 export default function BarButton({title,state,index}:{title:string,state:string,index:string}) {
     return(
 
-        <div className="btn py-1">
-            <div className={state}>
-                <p className="px-[18.5px] ">{index}</p>
-                <p className="">{title}</p>
+        <div className={state}>
+            <div className='w-[auto] h-full flex pb-[3px]'>
+                <div className="w-[42px] h-full flex items-center justify-center" >
+                    <p>{index}</p>
+                </div>
+                <div className="w-[10rem] text-[1.2rem] flex items-center h-full pt-[4px]">
+                    <p>{title}</p>  
+                </div>
             </div>  
         </div>
     )

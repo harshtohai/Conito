@@ -3,6 +3,13 @@
 @tailwind utilities;
 
 
+#__next-route-announcer__ {
+  display: none;
+}
+
+next-route-announcer{
+  display:none;
+}
 
 *{
   inset: 0;
@@ -14,21 +21,28 @@ body{
   height: 100vh;
 }
 
-.btn{
-  width: 100%;
-}
-.btn div{
-  @apply overflow-hidden w-[100%] bg-btn h-[3.3rem] rounded-[13px] flex items-center;
-}
   
-.btn div p{
-  @apply text-[2rem] text-text;
-}
-.notclicked{
-  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.25) inset;
+.clicked{
+  @apply overflow-hidden w-[100%]  bg-btn h-[2.7rem] rounded-[13px] flex mt-[10px]  ;
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.25) inset;
 }
 
-.clicked{
-  @apply border-[2px] border-grstroke;
-  box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.25);
+.notclicked{
+  @apply overflow-hidden h-[2.7rem] w-[100%] bg-btn flex rounded-[13px] mt-[10px];
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.25);
 }
+
+.notclicked:hover{
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  scale: 102%;
+  @apply transition-all
+}
+
+
+p{
+  @apply text-text;
+  line-height: normal;
+  leading-trim: both;
+  text-edge: cap;
+  font-weight: 500;
+} 
