@@ -5,7 +5,7 @@ import Message from "./message";
 export default function ChatDisplay() {
     return(
         <>
-            <div className="w-full h-[77%] overflow-hidden">
+            <div className="w-full h-[77%] overflow-scroll ">
                 <Message message="some chat message sent something very very big which flows off and wraps around we would like something like that just gimme that u." image="../favicon.ico" user="You"/>
                 <Message message="some chat message sent something very very big which flows off and wraps around we would like something like that just gimme that u." image="../favicon.ico" user="Bot"/>
                 <Message message="some chat message sent something very very big which flows off and wraps around we would like something like that just gimme that u." image="../favicon.ico" user="You"/>
@@ -13,8 +13,8 @@ export default function ChatDisplay() {
                 <Message message="some chat message sent something very very big which flows off and wraps around we would like something like that just gimme that u." image="../favicon.ico" user="You"/>
                 <Message message="some chat message sent something very very big which flows off and wraps around we would like something like that just gimme that u." image="../favicon.ico" user="Bot"/>
             </div>
-            <div className="w-full h-[24%] px-[15px] flex items-center rounded-[14px] absolute top-[74.5%]">
-                <textarea name="textplace" id="textplace" className="outline-none resize-none h-[90%] w-full rounded-[14px] px-3 py-2 text ">hello</textarea>
+            <div className="w-full h-[25%] px-[15px] flex justify-center rounded-[14px] absolute top-[72.2%]">
+                <textarea name="textplace" id="textplace" className="outline-none resize-none h-[100%] w-full rounded-[14px] px-3 py-2 text ">hello</textarea>
                 <button className="absolute bottom-[69%] left-[89%]">
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 29 28" fill="none">
                         <g clip-path="url(#clip0_16_4)">

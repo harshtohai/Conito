@@ -57,3 +57,7 @@ p{
 textarea{
   box-shadow: 0px 0px 7px 1px rgba(115, 206, 177, 0.57);
 }
+
+::-webkit-scrollbar {
+  width: 0px;
+}
