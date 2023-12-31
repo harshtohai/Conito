@@ -1,12 +1,10 @@
 import ChatDisplay from "./chatdisplay"
-import TextBox from "./textbox"
 
 
 export default function ChatSection(){
     return(
-        <div>
+        <div className='w-[30%] bg-secbg h-10rem flex flex-col py-[10px] px-[15px] border-2 border-transparent border-l-line relative'>
             <ChatDisplay/>
-            <TextBox/>
         </div>
     )
 }

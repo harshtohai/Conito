@@ -40,7 +40,7 @@ export default function Sidebar() {
 </svg>
     return(
         <>
-            <main className="w-[4rem] h-full flex bg-secbg items-center flex-col border-2 border-transparent border-r-line hover:w-[15rem] transition-all hover:shadow-[1px_0px_15px_0px_rgba(0,0,0,0.20)]" >
+            <main className="w-[4rem] h-full flex bg-secbg items-center flex-col border-2 absolute border-transparent border-r-line hover:w-[15rem] transition-all hover:shadow-[1px_0px_15px_0px_rgba(0,0,0,0.20)]" >
                 <div className="w-[100%] h-[90%] last:text-black px-[9px] overflow-hidden">
                     <BarButton title='Something ' state='clicked text-[1.5rem] cursor-pointer' index="1"/>
                     <BarButton title='Something' state='notclicked text-[1.5rem] cursor-pointer' index="2"/>
