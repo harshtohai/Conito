@@ -1,3 +1,4 @@
+import TextAreaBigOneLikeYourMom from "@/components/biggestTextAreaSomeoneCanEvertThinkOf";
 import ChatSection from "@/components/chatarea/chatsection";
 import Sidebar from "@/components/leftsidebar/leftSideBar";
 
@@ -7,7 +8,7 @@ export default function Home() {
         <>
             <main className="flex h-full w-full jusify-between">
                 <Sidebar/>
-                <div className="w-[70%] h-full bg-pribg"></div>
+                <TextAreaBigOneLikeYourMom/>
                 <ChatSection/>
             </main>
         </>
