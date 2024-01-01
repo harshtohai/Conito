@@ -11,7 +11,7 @@ export default function AddButton({title,image}:{title:string, image:ReactNode})
                 <div className="w-[44px] h-full flex items-center justify-center mt-[2px] " >
                     {image}
                 </div>
-                <div className="w-[10rem] text-[1.2rem] flex items-center h-full pt-[4px]">
+                <div className="w-[10rem] text-[1rem] flex items-center h-full pt-[4px]">
                     <p>{title}</p>  
                 </div>
             </div>  

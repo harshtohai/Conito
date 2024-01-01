@@ -22,15 +22,6 @@ body{
 }
 
   
-.clicked{
-  @apply overflow-hidden w-[100%]  bg-btn h-[2.7rem] rounded-[13px] flex mt-[10px]  ;
-  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.25) inset;
-}
-
-.notclicked{
-  @apply overflow-hidden h-[2.7rem] w-[100%] bg-btn flex rounded-[13px] mt-[10px];
-  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.25);
-}
 
 .notclicked:hover{
   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.25);
@@ -38,26 +29,39 @@ body{
   @apply transition-all
 }
 
+.clicked:hover{
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.25);
+  scale: 102%;
+  @apply transition-all
+}
 
 p{
-  @apply text-text;
+  @apply text-neutral-50;
   line-height: normal;
   leading-trim: both;
   text-edge: cap;
-  font-weight: 500;
+  font-weight: 400;
 } 
 .text{
-  @apply text-text;
+  color:#9ca3aa;
   line-height: normal;
   leading-trim: both;
   text-edge: cap;
   font-weight: 500;
 } 
-
-textarea{
-  box-shadow: 0px 0px 7px 1px rgba(115, 206, 177, 0.57);
-}
 
 ::-webkit-scrollbar {
   width: 0px;
+}
+.clicked{
+  @apply overflow-hidden w-[100%] !text-btn border-grstroke bg-text h-[2.7rem] rounded-[13px] flex mt-[10px]  ;
+}
+
+.clicked p{
+  @apply text-neutral-50
+}
+
+
+.notclicked{
+  @apply overflow-hidden h-[2.7rem] w-[100%] bg-btn flex rounded-[13px] mt-[10px];
 }
