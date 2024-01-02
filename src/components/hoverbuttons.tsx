@@ -1,14 +1,16 @@
 'use client'
 
+import { ReactNode,MouseEvent } from "react"
 
-export function HoverButton({text}:{text:string}){
+
+export function HoverButton({img}:{img:ReactNode}){
+    const handleClick = (event: MouseEvent<HTMLButtonElement>) => {
+        console.log('Submit button clicked!');
+    };
     return(
-        <button className="px-4 py-1.5 rounded-[5px] bg-secbg">
+        <button className="px-2 py-1.5 rounded-[5px]" onClick={handleClick} >
             <div>
-                <img src="" alt="" />
-            </div>
-            <div>
-                <p>{text}</p>
+               {img} 
             </div>
         </button>
     )
