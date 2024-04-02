@@ -8,7 +8,7 @@ export function HoverButton({img}:{img:ReactNode}){
         console.log('Submit button clicked!');
     };
     return(
-        <button className="px-2 py-1.5 rounded-[5px]" onClick={handleClick} >
+        <button className="px-2 py-1.5 rounded-[5px] clicked" onClick={handleClick} >
             <div>
                {img} 
             </div>
