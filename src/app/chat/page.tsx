@@ -12,7 +12,7 @@ export default function Home() {
                 <ChatSection/>
             </main>
         </>
-        // <h1>something</h1>
+        // <h1>something</h1>                               
         
     )
 }   

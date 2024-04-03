@@ -3,7 +3,6 @@
 import { HoverButton } from "./hoverbuttons"
 import { useEffect, useState } from "react"
 
-
 export default function TextAreaBigOneLikeYourMom(){
     const [lineCounts, setLineCounts] = useState()
     const copy = <svg xmlns="http://www.w3.org/2000/svg" width="23" height="25" viewBox="0 0 20 20" fill="none">
@@ -19,8 +18,6 @@ export default function TextAreaBigOneLikeYourMom(){
             <div className="absolute flex w-[4rem] items-center justify-between h-[3.3rem] left-[62.8%]">
                 <HoverButton img={copy}/>
                 <HoverButton img={download}/>
-            </div>
-            <div id='lineCounts' className="">
             </div>
             <textarea name="" id="TheTextArea" className="w-full p-[10px] h-[99%] outline-none text bg-pribg resize-none TextArea" ></textarea>
         </div>

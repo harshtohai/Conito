@@ -17,7 +17,7 @@ const config: Config = {
           secbg:'#202020',
           btn:'#262626',
           grstroke:'#202020',
-          text:'#a06be3',
+          text:'#9747FF',
           btnwhite:'#262626',
           brstroke:'#E4E6E5',
           line:'#323232',
