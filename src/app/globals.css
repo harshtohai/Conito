@@ -48,14 +48,12 @@ p{
   leading-trim: both;
   text-edge: cap;
   font-weight: 500;
-
-} 
-
-/* ::-webkit-scrollbar {
-  width: 0px;
-} */
+}
+::-webkit-scrollbar { 
+   width: 0px;
+}
 .clicked{
-  @apply overflow-hidden w-[100%] !text-btn border-grstroke bg-text h-[2.7rem] rounded-[8px] flex mt-[10px]  ;
+  @apply overflow-hidden w-[100%] !text-btn border-grstroke bg-text h-[2.7rem] rounded-[11px] flex mt-[10px]  ;
 }
 
 .clicked p{
@@ -64,7 +62,7 @@ p{
 
 
 .notclicked{
-  @apply overflow-hidden h-[2.7rem] w-[100%] bg-btn flex rounded-[8px] mt-[10px];
+  @apply overflow-hidden h-[2.7rem] w-[100%] bg-btn flex rounded-[11px] mt-[10px];
 }
 
 /* .TextArea{
