@@ -17,7 +17,7 @@ export default function LoginPage() {
     
     return(
         <main className="h-[100%] w-[100%] bg-pribg flex justify-center items-center py-[8%] px-[37%]">
-            <div className="bg-secbg w-full py-[3rem]   rounded-[10px] justify-center flex-col items-center flex">
+          <div className="bg-secbg w-full py-[3rem]   rounded-[10px] justify-center flex-col items-center flex">
                 <div className="w-[30rem] mb-[1rem] rounded-[13px] justify-center items-center flex flex-col"> 
                     <p className="text-sm font-medium">SingUp In</p>
                     <h1 className="text-buttons text-2xl font-semibold">Wiki Docs</h1>
