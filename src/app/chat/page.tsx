@@ -1,4 +1,4 @@
-import TextAreaBigOneLikeYourMom from "@/components/biggestTextAreaSomeoneCanEvertThinkOf";
+import TextAreaBigOneLikeYourMom from "@/components/theTextArea";
 import ChatSection from "@/components/chatarea/chatsection";
 import Sidebar from "@/components/leftsidebar/leftSideBar";
 
