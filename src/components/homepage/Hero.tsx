@@ -7,7 +7,7 @@ export default function Hero() {
               It&apos;s <i className="italic font-medium ml-[6px]"> Conito</i>{" "}
 
             </h2>
-            <h1 className="text-text text-5xl font-medium mb-[4px] flex items-center justify-center flex-wrap">
+            <h1 className="text-text text-center text-5xl font-medium mb-[4px] flex items-center justify-center flex-wrap">
               Your Personalised AI Powered Coding Assistant
             </h1>
             <h3 className="text-white text-l">

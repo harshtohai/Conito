@@ -10,7 +10,7 @@ export default function NavButton({
   return (
     <Link href={url}>
       <div className="w-[4.3rem] flex align-center justify-center bg-buttons rounded-[4px] text-sm text-white p-[3px] ">
-        <button>{buttonText}</button>
+        <button className="font-medium">{buttonText}</button>
       </div>
     </Link>
   );

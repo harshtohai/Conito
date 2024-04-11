@@ -20,7 +20,7 @@ export default function Footer() {
         </div>
         <span className="h-1/5 w-[3px] self-end bg-pribg"></span>
         <div className="w-1/3 h-full p-[5.8vh] flex text-lg justify-between text-white  bg-pribg rounded-[6px] rounded-bl-[0px] ">
-          <div className="flex flex-wrap flex-col justify-center *:my-[3px] transition-all w-full">
+          <div className="flex flex-wrap flex-col justify-center *:my-[3px] *:cursor-pointer *:transition-all w-full">
             <Link
               className=" hover:text-text"
               href="https://github.com/harshtohai/conito"
