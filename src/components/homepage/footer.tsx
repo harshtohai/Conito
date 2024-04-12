@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function Footer() {
  return(
 
-      <div className="w-full h-[30vh] flex mt-[3px]">
+      <div className="w-full h-[30vh] flex"> 
         <div className="w-1/3 h-full py-[5vh] flex flex-col justify-center  px-[5vh] bg-pribg rounded-[6px] rounded-tr-[0px] ">
           <p className="text-4xl mb-1 text-text font-medium italic">Conito</p>
           <p>Beliver of Fuck Around & Find Out, </p>
